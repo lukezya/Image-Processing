@@ -1,0 +1,11 @@
+The format for the filters are as follows:
+N filter_tap_1 filter_tap_2 ... filter_tap_N*(N-1) filter_tap_N*N
+
+where:
+	N is the length of each of the dimensions
+	N is odd
+	filter_tap_1 through filter_tap_N*N increases fastest in the x dimension (columns) and slowest in the y dimension (rows).
+	The filter taps are real numbers
+	The tap in the centre of this matrix should be placed over the pixel to which the resulting value is to be  written out
+	Engineers: this differs slightly from your normal definition of a convolution, please be careful. The boundary condition is also slightly different to a normal convolution.
+		Please consult the specification for more details
