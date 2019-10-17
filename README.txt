@@ -1,8 +1,3 @@
-# README for Assignment 4
-# 28 Apr 2018
-# Tony Guo
-# GXXHEN001
-
 -----------------------------------
 Files in this directory
 -----------------------------------
